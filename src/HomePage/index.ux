@@ -1,0 +1,96 @@
+<import name="header" src="../components/Header/index"></import>
+<template>
+  <div class="home-page-warp">
+    <header title="主页"></header>
+    <image src="../assets/bg.png"></image>
+    <div>
+      <text class="introduction">快应用是什么 ?</text>
+    </div>
+    <div class="content-warp">
+      <div class="content">
+        <div class="item-warp">
+          <text class="item-order">1、</text>
+          <div>
+            <text class="mess">快应用是基于手机硬件平台的新型应用形态；</text>
+          </div>
+        </div>
+        <div class="item-warp">
+          <text class="item-order">2、</text>
+          <div>
+            <text class="mess">标准是由主流手机厂商组成的快应用联盟联合制定；</text>
+          </div>
+        </div>
+        <div class="item-warp">
+          <text class="item-order">3、</text>
+          <div>
+            <text class="mess">快应用标准的诞生将在研发接口、能力接入、开发者服务等层面建设标准平台；</text>
+          </div>
+        </div>
+        <div class="item-warp">
+          <text class="item-order">4、</text>
+          <div>
+            <text class="mess">以平台化的生态模式对个人开发者和企业开发者全品类开放。</text>
+          </div>
+        </div>
+        <div class="item-warp">
+          <text class="item-order">5、</text>
+          <div>
+            <a class="mess" href="https://www.quickapp.cn/">快应用官网</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<style>
+  .home-page-warp {
+    display: flex;
+    flex-direction: column;
+    background-color: #f0edef;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 10px;
+  }
+
+  .mess {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .item-warp {
+    margin: 10px 0;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .item-order {
+    width: 50px;
+    line-height: 40px;
+    font-size: 32px;
+  }
+
+  .introduction {
+    font-size: 48px;
+    margin: 30px;
+  }
+
+  .content-warp {
+    padding: 0 30px;
+
+  }
+</style>
+
+<script>
+  export default {
+    onInit() {
+      const theme = this.$app.$def.theme;
+      // this.$page.setTitleBar({backgroundColor: theme.color, textColor: '#ffffff'});
+    }
+  }
+</script>
+
