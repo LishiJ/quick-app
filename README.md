@@ -29,7 +29,7 @@ npm run server -- --port 1234
 
 #### 预览图：
 
-![页面展示](./shotscreen/5.gif)	![页面展示](./shotscreen/6.gif)	![页面展示](./shotscreen/7.gif)	![页面展示](./shotscreen/8.gif)	![换肤](./shotscreen/1.gif)
+![页面展示](https://cdn.jsdelivr.net/gh/seiwhale/quick-app/shotscreen/5.gif)	![页面展示](https://cdn.jsdelivr.net/gh/seiwhale/quick-app/shotscreen/6.gif)	![页面展示](https://cdn.jsdelivr.net/gh/seiwhale/quick-app/shotscreen/7.gif)	![页面展示](https://cdn.jsdelivr.net/gh/seiwhale/quick-app/shotscreen/8.gif)	![换肤](https://cdn.jsdelivr.net/gh/seiwhale/quick-app/shotscreen/1.gif)
 
 #### 项目目录结构
 
